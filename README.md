@@ -12,7 +12,7 @@ This project provides deep insights into gold price trends, market volatility, a
 ## 🚀 Key Features & UI/UX Design
 * 🎨 **Executive Dark Theme UI:** Designed with a professional dark background and gold accents to reduce eye strain and highlight financial data.
 * 🏷️ **Dynamic Title & Summary Cards:** Custom DAX measures that adapt dynamically based on user selections (Global overview vs. Country-specific drill-downs).
-* 🌐 **Multi-Country & Multi-Currency Support:** Implemented robust ETL pipelines in Power Query (Unpivoting wide datasets) to seamlessly handle international price comparisons[cite: 15, 16].
+* 🌐 **Multi-Country & Multi-Currency Support:** Implemented robust ETL pipelines in Power Query (Unpivoting wide datasets) to seamlessly handle international price comparisons.
 * 📐 **Advanced Financial Metrics:** 
   * 📉 Gold Price Volatility & Percentage %
   * 📊 Min/Max Annual Price tracking
@@ -21,8 +21,8 @@ This project provides deep insights into gold price trends, market volatility, a
 ---
 
 ## 🛠️ Data Modeling & ETL Process (Power Query)
-1. 📂 **Source Data:** Historical monthly gold prices (1979–2021)[cite: 17].
-2. 🔄 **Unpivoting:** Transformed wide-format country columns into a clean, normalized relational structure (`Country`, `Currency`, `Price`)[cite: 15, 16].
+1. 📂 **Source Data:** Historical monthly gold prices (1979–2021).
+2. 🔄 **Unpivoting:** Transformed wide-format country columns into a clean, normalized relational structure (`Country`, `Currency`, `Price`).
 3. 📅 **Date Table (`Dim_Date`):** Created a dedicated calendar table for advanced time-intelligence calculations and yearly/monthly aggregations[cite: 10].
 
 ---

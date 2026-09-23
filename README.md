@@ -29,5 +29,18 @@ This project provides deep insights into gold price trends, market volatility, a
 
 ## 📈 DAX Measures Implemented
 * **Average Price:** 
+Max price = CALCULATE(MAX('Gold Prices'[Price]), ALLEXCEPT('Gold Prices', 'Gold Prices'[Year], 'Gold Prices'[Country]))
+Min price = CALCULATE(MIN('Gold Prices'[Price]), ALLEXCEPT('Gold Prices', 'Gold Prices'[Year], 'Gold Prices'[Country]))
+Gold Price Volatility = STDEV.S('Gold Prices'[Price])
+Volatility Percentage % = DIVIDE([Gold Price Volatility], [AVG Price], 0)
+Selected Country Summary = 
+VAR CurrentCountry = SELECTEDVALUE('Gold Prices'[Country], "Global Market")
+RETURN
+    IF(
+        ISFILTERED('Gold Prices'[Country]),
+        "Gold Prices & Historical Analytics for: " & CurrentCountry,
+        "Global Gold Market Overview & Historical Performance (1979 - 2000)"
+    )
+    
   ```dax
   AVG Price = AVERAGE('Gold Prices'[Price])

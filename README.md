@@ -48,3 +48,33 @@ RETURN
         "Gold Prices & Historical Analytics for: " & CurrentCountry,
         "Global Gold Market Overview & Historical Performance (1979 - 2000)"
     )
+
+    ### 1. 🖥️ Executive Dashboard View:
+![Dashboard Overview](Screenshot%202026-09-23%20223554.png)
+
+### 2. 📝 Measures & Fields Architecture:
+![Measures List](Screenshot%202026-09-23%20223922.png)
+
+### 3. 📅 Date Table Structure (`Dim_Date`):
+![Dim Date Table](Screenshot%202026-09-23%20223908.png)
+
+### 4. 🔄 Power Query ETL - Renamed Columns:
+![ETL Renamed Columns](Screenshot%202026-09-23%20223811.png)
+
+### 5. 🧹 Power Query ETL - Filtered Rows:
+![ETL Filtered Rows](Screenshot%202026-09-23%20223758.png)
+
+### 6. 🔤 Power Query ETL - Replaced Values:
+![ETL Replaced Values](Screenshot%202026-09-23%20223744.png)
+
+### 7. 🔀 Power Query ETL - Split Column:
+![ETL Split Column](Screenshot%202026-09-23%20223720.png)
+
+### 8. 📈 Power Query ETL - Unpivoted Other Columns:
+![ETL Unpivot](Screenshot%202026-09-23%20223708.png)
+
+### 9. 🏷️ Power Query ETL - Promoted Headers:
+![ETL Promoted Headers](Screenshot%202026-09-23%20223655.png)
+
+### 10. 📂 Raw CSV Source Preview:
+![Raw Source Data](Screenshot%202026-09-23%20223638.png)
